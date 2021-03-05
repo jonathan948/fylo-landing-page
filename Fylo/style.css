@@ -1,0 +1,141 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(218, 28%, 13%);
+    background-image: url("bg-curvy-desktop.svg");
+}
+
+li{
+    margin: 10px;
+}
+
+footer{
+    padding: 90px;
+}
+ 
+
+
+.access{
+    background: hsl(219, 30%, 18%); 
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 10px; 
+    position: relative;
+    top: 60px;
+}
+.btn-two{
+    background:hsl(176, 68%, 64%);
+    width: 140px;
+    border-radius: 30px;
+    border: solid hsl(176, 68%, 64%)hsl(322, 100%, 66%);
+    color: white;
+}
+.btn-three{
+    background:hsl(176, 68%, 64%);
+    width: 100%;
+    border-radius: 30px;
+    border: solid hsl(176, 68%, 64%)hsl(322, 100%, 66%);
+    color: white;
+    padding: 8px;
+}
+
+.form-control{
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+}
+
+.fa{
+    background: whitesmoke;
+    width: 40px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.fa-instagram{
+    color: red;
+    text-decoration: none;
+}
+
+
+    .pro{
+        margin-bottom: 30px;
+    }
+
+      @media(max-width: 768px){
+        .profile-one{
+            margin: 4px;
+        }
+        .logo{
+            width: 50px;
+        }
+        .profile-two{
+            margin: 4px;
+        }
+        .profile-three{
+            margin: 4px;
+        }
+        .home{
+            position: relative;
+            bottom: 16px;
+        }
+        .about{
+            position: relative;
+            bottom: 16px;
+        }
+        .sing-in{
+            position: relative;
+            bottom: 16px;
+        }
+        .access{
+            width: 90%;
+        }
+
+    } 
+
+    @media(max-width: 320px){
+     
+        .home{
+            position: relative;
+            bottom: 16px;
+            font-size: small;
+        }
+        .about{
+            position: relative;
+            bottom: 16px; 
+            font-size: small;
+        }
+        .sing-in{
+            position: relative;
+            bottom: 16px;
+            font-size: small;
+        }
+    } 
+    
+    @media(max-width: 280px){
+     
+        .home{
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+        }
+        .about{
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+        }
+        .sing-in{
+            position: relative;
+            bottom: 10px;
+            font-size: 10px;
+        }
+
+        .logo{
+            width: 30px;
+        }
+    } 
