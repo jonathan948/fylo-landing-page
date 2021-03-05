@@ -28,14 +28,15 @@ footer{
     background:hsl(176, 68%, 64%);
     width: 140px;
     border-radius: 30px;
-    border: solid hsl(176, 68%, 64%)hsl(322, 100%, 66%);
+   
     color: white;
+  
 }
 .btn-three{
     background:hsl(176, 68%, 64%);
     width: 100%;
     border-radius: 30px;
-    border: solid hsl(176, 68%, 64%)hsl(322, 100%, 66%);
+    border: 1px solid hsl(176, 68%, 64%);
     color: white;
     padding: 8px;
 }
